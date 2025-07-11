@@ -39,6 +39,7 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+
 }
 
 .section-description {
@@ -46,6 +47,11 @@
     font-weight: 400;
     color: #757575;
     line-height: 30px;
+}
+
+.text-center {
+    text-align: center;
+    margin: 30px;
 }
 
 /* Header Styles */
@@ -120,7 +126,7 @@ nav li a {
 
 /* Main Styles */
 main {
-    max-width: 1900px;
+    max-width: 1650px;
     margin: 0 auto;
 }
 
@@ -197,6 +203,116 @@ main section {
 
 }
 
-
-
 /* Skill styles end */
+
+
+/* Resume Sections Style  starts*/
+
+.section-title-resume {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+
+
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.experience {
+    text-align: left;
+}
+
+.experience-title {
+    font-size: 25px;
+    color: #474747;
+}
+
+
+.experience-sub-title {
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.experience-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Download cv button styles................ */
+.download-btn {
+    align-content: center;
+
+}
+
+/* Resume Sections Style  ends*/
+
+
+
+/* Footer styles */
+
+.footer {
+
+    max-width: 2000px;
+    padding: 130px 600px;
+    display: flex;
+    gap: 300px;
+}
+
+
+.footer-column {
+    width: 60%;
+}
+
+.footer-description {
+    font-size: 24;
+}
+
+footer input[type=text] {
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    font-size: 18px;
+}
+
+footer input[type=email] {
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    font-size: 18px;
+    margin-top: 24px
+}
+
+footer textarea {
+    height: 64 px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    font-size: 22px;
+    margin-top: 24px
+}
+
+footer input[type=submit] {
+    margin-top: 24px;
+    height: 70px;
+    width: 170px;
+    font-size: 22px;
+}
